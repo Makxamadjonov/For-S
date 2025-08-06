@@ -75,6 +75,34 @@ body {
   transition: 4s;
 }
 
+.hand-image {
+   position: fixed;
+   bottom :200px;
+   left:470px
+}
+
+.hand-image .hand-img {
+ 
+  width: 450px;
+  height: 400px;
+
+}
+
+.hand-image-2 {
+   position: fixed;
+   top :35px;
+   left:70px
+}
+
+.hand-image-2 .hand-img-2 {
+ width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+}
+
 .created {
   display: flex;
   align-items: center;
@@ -82,16 +110,17 @@ body {
   right: 50px;
   bottom: 57px;
 }
+
 .created p {
   font-family: sans-serif;
-  font-size: 16px;
+  font-size: 36px;
 }
 
 .created a {
   color: black;
   animation: forwards;
   font-family: sans-serif;
-  font-size: 15px;
+  font-size: 36px;
   margin-left: 10px;
 }
 
@@ -99,7 +128,6 @@ body {
   animation: jump 2.7s ease-in-out infinite;
   position: relative;
 }
-
 
 @keyframes jump {
   0%,
